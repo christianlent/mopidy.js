@@ -9,7 +9,7 @@
     "websocket",
     "json-rpc"
   ],
-  "types": "mopidy.d.ts",
+  "types": "src/mopidy.d.ts",
   "homepage": "https://mopidy.com/",
   "bugs": "https://github.com/mopidy/mopidy.js/issues",
   "license": "Apache-2.0",
@@ -37,7 +37,8 @@
     "node": ">= 10"
   },
   "files": [
-    "src/mopidy.js"
+    "src/mopidy.js",
+    "src/mopidy.d.ts"
   ],
   "scripts": {
     "test": "jest",
